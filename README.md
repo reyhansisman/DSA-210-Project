@@ -5,7 +5,7 @@
 This project aims to analyze the factors that influence tourism demand across countries,
 with a specific focus on whether tourists prioritize cost or safety when choosing travel
 destinations. The motivation behind this project comes from a simple but interesting
-question: when people decide where to travel, do they care more about a@ordability or how
+question: when people decide where to travel, do they care more about acordability or how
 safe a destination is?
 The data for this project will be collected from publicly available datasets on Kaggle. A
 tourism dataset will be used as the main variable, but instead of using total international
@@ -25,3 +25,9 @@ combining the datasets, some basic data cleaning and preparation steps will be a
 The project will then use data analysis and visualization techniques to explore the
 relationships between variables. Overall, the goal is to understand whether cost or safety
 plays a more significant role in attracting tourists and to interpret the findings accordingly.
+
+
+# Machine Learning
+In this phase of the project, I applied machine learning methods to analyze the relationship between tourism demand and country-level indicators such as cost of living, safety, and overall quality of life. Based on the feedback, the analysis was extended from a single year (e.g., 2015) to a multi-year dataset, introducing a temporal dimension and improving the robustness of the results. The target variable used is tourism_gdp_ratio, which normalizes tourism performance across countries and reduces bias toward larger economies. Two models, Linear Regression and Random Forest Regressor, were implemented to capture both interpretable relationships and potential non-linear patterns. The features used in the models include Cost of Living Index, Safety Index, Quality of Life Index, Purchasing Power Index, Health Care Index, Pollution Index, Property Price to Income Ratio, Traffic Commute Time Index, Inflation, Unemployment, and Year (added to capture temporal trends). The models were evaluated using MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), and R² Score, allowing for a comprehensive comparison of prediction accuracy and overall model performance.
+
+
